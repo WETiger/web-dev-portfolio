@@ -9,6 +9,9 @@ body{
     color: #474747;
   }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,7 +25,17 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
 
+}
+.description{
+    font-size: 18px;
+}
+.text-center{
+    text-align: center;
+}
 /* header style */
     .header{
         background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -32,7 +45,7 @@ body{
     }
 /* nav style */
 
-.anv-title{
+.nav-title{
     font-size: 45px;
     font-weight: 800;
 }
@@ -60,7 +73,7 @@ nav ul li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0 35px 20px 200px;
 }
 .banner-content{
     width: 580px;
@@ -73,10 +86,103 @@ nav ul li a{
     font-size: 85px;
     font-weight: 600;
 }
-.banner-discription{
-    font-size: 18px;
-}
 
 .banner-pro-pic{
     width: 580px;
+
+}
+
+/* main stytle */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    
+    margin: 130px 0;
+}
+/* about style */
+.about-section{
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* about items */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+    font-size: 20px;
+}
+.item-text{
+    font-weight: 700;
+}
+
+/* skills-container */
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume-container  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.expre-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.exper-subtitle{
+    
+    font-size: 20px;
+    color: #757575;
+}
+.experiance .describtion{
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-column hr{
+    margin: 30px 5px;
+}
+.resume-down-cv{
+    margin: 50px 0;
+}
+
+/* footer  */   
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"] ,input[type="email"] ,footer textarea{
+    padding: 10px 20px;
+    width: 100%;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    display: block;
+}
+#txtarea{
+    height: 180px;
 }
